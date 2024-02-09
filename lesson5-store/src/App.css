@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.Container {
+  width: calc(100% - 60px);
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.Header {
+  padding: 10px 0;
+}
+
+.Header > .Container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.Cart {
+  position: relative;
+}
+
+.Cart > div {
+  margin-top:10px;
+  position: absolute;
+  top: 99%;
+  right: 50%;
+  /* transform: translateX(); */
+  height: 200px;
+  width: 300px;
+  border: 1px black solid;
+  background: #6984c9;
+  overflow: scroll;
+  display: none;
+}
+
+.Cart li {
+  list-style: auto;
+}
+
+.Card > img {
+  width: 200px;
+}

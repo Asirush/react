@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+}
+
+.Card > img{
+  width: 200px;
+}
